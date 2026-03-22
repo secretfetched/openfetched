@@ -8,7 +8,7 @@ bot.on("message", async (msg) => {
 
   // group me sirf mention pe reply
   if (msg.chat.type !== "private") {
-    if (!msg.text.includes("@YOUR_BOT_USERNAME")) return;
+    if (!msg.text.includes("@Secret_fetcher_bot")) return;
   }
 
   try {
